@@ -152,6 +152,10 @@ hydra:
     secrets: {}
 
     urls:
+      # -- Configure the urls used by hydra itself, such as the issuer.
+      # self: {
+      #   issuer: "https://public.hydra.localhost:4444/"
+      # }
       self: {}
 
     # -- Enables database migration
